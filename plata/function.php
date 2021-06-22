@@ -8,7 +8,7 @@
     $adresa_client=$_POST['adresa'];
 	$pret_total = $_POST['total_pret'];
 //=========
-?>
+? >
 <?php 
 function hmacsha1($key,$data) {
    $blocksize = 64;
