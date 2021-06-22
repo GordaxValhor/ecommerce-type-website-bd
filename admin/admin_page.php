@@ -113,7 +113,7 @@
             }     
     }
 
-?>
+? >
 <?php
     if(!(isset($_GET['status']))){
         if((isset($_POST['adaug'])))
@@ -159,7 +159,7 @@
             }
     }
      
-?>
+? >
 <html lang="en">
 <head>
     <meta charset="UTF-8">

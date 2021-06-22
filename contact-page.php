@@ -1,6 +1,6 @@
 <?php
     session_start();
-?>
+? >
 <html>
     <head>
             <title>Contact-Belissima Design</title>
@@ -49,7 +49,7 @@
                                 </div>";
                         }
                     }
-                    ?>
+                    ? >
                 </div>
             <div class="info-contact">
                 <h2>Informatii de contact:</h2>

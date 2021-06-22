@@ -1,7 +1,7 @@
 <?php
     include 'db_connect.php';
     session_start();
-?>
+? >
 <?php
     //incep sesiunea odata ce intru in pagina produsului
     //session_start();
@@ -55,7 +55,7 @@ if(isset($_POST['id']))
     }
 }
     
-?>
+? >
 <html>
     <head>
         <?php
@@ -75,7 +75,7 @@ if(isset($_POST['id']))
                 <meta name='robots' content='index, follow'>";
             }
         }
-        ?>
+        ? >
         <link rel="shortcut icon" href="./icon.ico">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css"  href="./CSS/menu_bar-style.css">
@@ -121,7 +121,7 @@ if(isset($_POST['id']))
                         </div>";
                 }
             }
-            ?>
+            ? >
     </div>
     <div>
         <!--Imagine produs-->
@@ -130,12 +130,12 @@ if(isset($_POST['id']))
         <!--Informati produs-->
         <?php
             $id=$_GET['id'];
-        ?>
+        ? >
         <?php
         $sql = "SELECT * FROM produse WHERE id=$id;" ;
         $results =  mysqli_query($conn,$sql);  
         $numResults = mysqli_num_rows($results);
-        ?>
+        ? >
         <div class="container">
             <div class="img_container">
                     <?php
@@ -205,7 +205,7 @@ if(isset($_POST['id']))
                            //faza cu stocul
                         ;}
                     ;}
-                ?>
+                ? >
                 
                 <div class="f_produs">
                 <!--Shop produs-->
@@ -241,7 +241,7 @@ if(isset($_POST['id']))
                                         if(strpos($row['marime'], 'xxxl,') !== false){
                                             echo "<option value='XXXL'>XXXL</option>";
                                         }
-                                ?>
+                                ? >
                             </select></div> 
                         <br>
                         <div class='f_block'><p>Cantitate:</p><input type="number" value="1" name="cantitate"><br></div>
@@ -255,7 +255,7 @@ if(isset($_POST['id']))
                             {
                                 echo "";
                             }
-                        ?>
+                        ? >
                         
                     </form>
                     

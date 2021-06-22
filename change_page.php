@@ -1,6 +1,6 @@
 <?php
     include 'db_connect.php'
-?>
+? >
 <?php
     $sql = 'SELECT * FROM produse';
     //echo $_GET['search'];
@@ -44,7 +44,7 @@
     $results =  mysqli_query($conn,$sql);
     $numResults = mysqli_num_rows($results);
     
-    ?>
+    ? >
     <div class="container">
             <?php
                 if ($numResults > 0) 
@@ -87,7 +87,7 @@
                     ;}
                 ;}
                 else { echo "<p>Nu sunt rezultate pentru aceasta pagina!</p></div>";}   
-             ?>
+             ? >
         </div>
         <div class='change_page'>
                 <img src="./images/miniarrow.png" alt="previous" style='transform: rotate(180deg);' onclick='antpage()'>
@@ -96,7 +96,7 @@
                     $pag_ant=$nr_page-1;
                     echo "<p id='nr_pagina'style='cursor:pointer; background-color: white; color: #1A1A1A;' onclick='antpage()'>". $pag_ant ."</p>";
                 }        
-                ?>
+                ? >
                 <p id='nr_pagina'><?php echo $nr_page ?></p>
                 <p id='nr_pagina'style='cursor:pointer; background-color: white; color: #1A1A1A;' onclick='nextpage()'><?php echo $nr_page+1 ?></p>
                 <img src="./images/miniarrow.png" alt="next" onclick='nextpage()' >

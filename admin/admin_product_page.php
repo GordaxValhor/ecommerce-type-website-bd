@@ -4,7 +4,7 @@
     {
         header("Location: https://belissimadesign.com/index.php");
     }
-?>
+? >
 <?php
     include 'db_connect.php';
     $sql="SELECT * from produse where id=".$_GET['id'];
@@ -110,7 +110,7 @@
         echo "Imaginile produsului au fost sterse";
     }
     
-?>
+? >
 <html>
 <head>
     <title>Modificare produs-Admin</title>
@@ -236,7 +236,7 @@
                     </div>";
             }
         }
-    ?>
+    ? >
     <br>
 </body>
 </html>

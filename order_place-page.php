@@ -4,7 +4,7 @@
  {
         header("Location: https://belissimadesign.com/cos-page.php");
  }
-?>
+? >
 <html>
     <head>
         <title>Plasare Comanda-Belissima Design</title>
@@ -53,7 +53,7 @@
                         </div>";
                 }
             }
-            ?>
+            ? >
     </div>
     <h2 style="margin-top:200px;margin-left:10px">Plasarea comenzi: </h2>
     <p style="margin-left: 20px;">Vă rugăm sa introduce-ți datele dumneavoastră pentru procesarea comenzi.</p>
@@ -99,7 +99,7 @@
                 echo "</div>";
                 echo "<hr>";
                 echo "<p>Total comanda:  <span style='font-weight: 600;'> ".$total." </span>ron</p>";
-            ?>
+            ? >
                 <input type='hidden' name='total_pret' value="<?php echo ($total); ?>">
                 <h4 style="margin-top:30px;">Alegeti metoda de plată:</h4>
                 <!--<p>Prin card (Plata se face prin euplatesc.ro)<input type="radio" name="metodaPlata" id="" value='prinCard' required></p>-->

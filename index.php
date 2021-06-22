@@ -23,6 +23,8 @@
         <meta property="og:title" content="Belissima Design">
         <meta property="og:description" content="Am pregătit noua colecție doar pentru voi. Grăbește-te și cumpără la cele mai bune prețuri">
         <meta property="og:image" content="http://belissimadesign.com/images/best_iThink.jpg">
+        
+
     </head>
     <body onload='iframeResize()'>
         <div class="menu_bar">

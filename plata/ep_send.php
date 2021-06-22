@@ -3,7 +3,7 @@ $mid=""; //**
 $key=""; //**
 
 include'function.php'; 
-?>
+? >
 
 <div align="center">
 <form ACTION="https://secure.euplatesc.ro/tdsprocess/tranzactd.php" METHOD="POST" name="gateway" target="_self">

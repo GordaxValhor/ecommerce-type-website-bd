@@ -2,7 +2,7 @@
 	session_start();
 	include 'db_connect.php';
 	require '../phpmailer/PHPMailerAutoload.php';
-?>
+? >
 <!DOCTYPE html>
 		<html lang="en">
 		<head>
@@ -188,7 +188,7 @@
 		echo "Invalid signature";
 		session_destroy();
 		}
-	?>
+	? >
 	<?php
 	function hmacsha1($key,$data) {
 	$blocksize = 64;
@@ -222,6 +222,6 @@
 	return hmacsha1($key, $str);
 	}
 
-	?>
+	? >
 	<a style='text-align:center; margin: 10px;' href='../index.php'><p>Intoarceti-va la site</p></a>
 </body>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-?>
+? >
 <?php
     if(isset($_SESSION["shopping_cart"]))
     {
@@ -23,7 +23,7 @@ session_start();
             }
         }
     }
-?>
+? >
 <html>
     <head>
         <title>Cos cumparaturi-Bellisima Design</title>
@@ -73,7 +73,7 @@ session_start();
                         </div>";
                 }
             }
-            ?>
+            ? >
         </div>
         <div>
             <!-- Tabel cu produsele adaugate in cos --> 
@@ -119,7 +119,7 @@ session_start();
                     }
 
                 }
-            ?>
+            ? >
             
         </div>
         <div class='total'>
@@ -133,7 +133,7 @@ session_start();
                     else {
                         echo "<hr>";
                     }
-                ?>
+                ? >
                 
                 <p><span>Total coș: </span><?php $total = number_format($total,2); echo $total; ?> lei</p>
         </div>
@@ -148,7 +148,7 @@ session_start();
             {
                 echo "<a class='place_order' href='./order_place-page.php'>Plasează comanda</a>";
             }
-        ?>
+        ? >
         <div class="bottom-tag">
             <div class='bottom-box'>
                 <ul>

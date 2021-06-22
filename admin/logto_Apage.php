@@ -3,7 +3,7 @@
     {
         header("Location: http://./index.php");
     }
-?>
+? >
 <!DOCTYPE html>
 <html lang="en">
 <head>

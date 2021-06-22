@@ -1,7 +1,7 @@
 <?php
     include 'db_connect.php';
     session_start();
-?>
+? >
 <html>
     <head>
         <title>Magazin-Belissima Design</title>
@@ -54,7 +54,7 @@
                         </div>";
                 }
             }
-            ?>
+            ? >
     </div>
     <div>
         <h1><a href=./shop.php>Magazin</a></h1>
@@ -93,7 +93,7 @@
         }
         $results =  mysqli_query($conn,$sql);  
         $numResults = mysqli_num_rows($results);
-        ?>
+        ? >
         <div class="container">
                 <?php
                     if ($numResults > 0) 
@@ -140,7 +140,7 @@
                     ;}
                     else {echo "<p>Din păcate nu sunt produse.";}
             
-        ?>
+        ? >
         </div>
         <?php
             if(!(isset($_GET['q']))){
@@ -151,7 +151,7 @@
                 <img src='./images/miniarrow.png' alt='next' onclick='nextpage()' >
         </div>";
             }
-        ?>
+        ? >
     <br><br>
     </div>
     </div>

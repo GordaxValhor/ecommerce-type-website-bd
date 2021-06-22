@@ -8,7 +8,7 @@
         header("Location:  https://belissimadesign.com/cos-page.php");
     }
     require '../phpmailer/PHPMailerAutoload.php';
-?>
+? >
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -589,7 +589,7 @@
                     }
                 }
             }
-        ?>  
+        ? >  
     </div>
     <a style='text-align:center; margin: 10px;' href='../index.php'><p>Intoarceti-va la site</p></a>
                             

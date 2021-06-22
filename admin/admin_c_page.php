@@ -1,7 +1,7 @@
 
 <?php
 //daca am apasat pe tabel  ne arata comenzile sau produsele
-?>
+? >
         <!-- aici o sa avem un seracj bar -->
 <?php
         include 'db_connect.php';
@@ -140,6 +140,6 @@
         }
         echo "</table></div>";
     
-?>
+? >
         
             
