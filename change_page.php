@@ -97,7 +97,7 @@
                     echo "<p id='nr_pagina'style='cursor:pointer; background-color: white; color: #1A1A1A;' onclick='antpage()'>". $pag_ant ."</p>";
                 }        
                 ? >
-                <p id='nr_pagina'><?php echo $nr_page ?></p>
+                <p id='nr_pagina'><?php echo $nr_page ? ></p>
                 <p id='nr_pagina'style='cursor:pointer; background-color: white; color: #1A1A1A;' onclick='nextpage()'><?php echo $nr_page+1 ?></p>
                 <img src="./images/miniarrow.png" alt="next" onclick='nextpage()' >
         </div>
