@@ -1,7 +1,7 @@
 <?php
     include 'db_connect.php';
     session_start();
-?>
+? >
 <html>
     <head>
         <title>Informatii-Belissima Design</title>
@@ -50,7 +50,7 @@
                             </div>";
                     }
                 }
-            ?>
+            ? >
         </div>
         <div class="info">
             <h1>Informatii</h1>
