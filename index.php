@@ -1,7 +1,7 @@
 <?php
     include 'db_connect.php';
     session_start();
-?>
+? >
 <html>
     <head>
         <title>Belissima Design</title>
@@ -23,8 +23,6 @@
         <meta property="og:title" content="Belissima Design">
         <meta property="og:description" content="Am pregătit noua colecție doar pentru voi. Grăbește-te și cumpără la cele mai bune prețuri">
         <meta property="og:image" content="http://belissimadesign.com/images/best_iThink.jpg">
-        
-
     </head>
     <body onload='iframeResize()'>
         <div class="menu_bar">
@@ -62,7 +60,7 @@
                             </div>";
                     }
                 }
-            ?>
+            ? >
         </div>
         <div class='animating_slide'>
             <div class='animating_box'>
@@ -117,7 +115,7 @@
                             ;}
                         ;}
                 echo "</div>";
-            ?>
+            ? >
         </div>
             <div class="arrows">
                 <div class='move_arrow' onclick='prevS()'>
