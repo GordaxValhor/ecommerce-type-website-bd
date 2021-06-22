@@ -135,7 +135,7 @@ session_start();
                     }
                 ? >
                 
-                <p><span>Total coș: </span><?php $total = number_format($total,2); echo $total; ?> lei</p>
+                <p><span>Total coș: </span><?php $total = number_format($total,2); echo $total; ? > lei</p>
         </div>
         <div>
             <!-- Butoane -->
