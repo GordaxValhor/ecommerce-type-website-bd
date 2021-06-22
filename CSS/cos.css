@@ -1,0 +1,135 @@
+body {
+    height: 100%;
+}
+* {
+	text-decoration: none;
+}
+.bottom-tag {
+	position: relative;
+	top: 100%;
+	background-color: #1A1A1A;
+}
+input[type=submit] {
+	font-size: 19px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 160px;
+	color:#FFFFFF;
+    background:#1A1A1A; 
+    border:0 none;
+	cursor:pointer;
+	margin-bottom: 30px;
+	transition: background-color 300ms;
+	border-radius: 3px;
+}
+input[type=submit]:hover{
+	background-color: rgb(49, 49, 49);
+}
+.place_order {
+	font-size: 19px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	height: 40px;
+	width: 180px;
+	color:#FFFFFF;
+    background:#1A1A1A; 
+    border:0 none;
+	cursor:pointer;
+	transition: background-color 300ms;
+	border-radius: 3px;
+	
+}
+.place_order:hover {
+    background-color: rgb(49, 49, 49);
+}
+/*Ce tine de produse*/
+.img {
+	display: flex;
+	justify-content: center;
+	object-fit: contain;
+	width: 150px;
+	height: 150px;
+	max-width: 150px;
+
+}
+.img img{
+	object-fit: contain;
+	height: 100%;
+}
+.produs {
+	/*border: 1px solid gainsboro;*/
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1300px;
+}
+.produs_flex {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item{
+	text-align: center;
+	margin: 10px;
+}
+.item-1{
+	width: 450px;
+}
+.item-2{
+	margin-left: 15px;
+	margin-bottom: -10px;
+}
+.item-1 p{
+	text-align: left;
+	margin: 10px;
+} 
+.total hr {
+	width: 50%;
+}
+.total span {
+	font-weight: 600;
+}
+.total p{
+	margin-top: 10px;
+}
+.total {
+	font-size: 25px;
+	margin-top: 60px;
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* ca sa fie responsive */
+@media only screen and (max-width: 1200px) {
+    .produs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+		align-items: center;
+		width: 80%;
+        
+    }
+    
+}
+  @media only screen and (max-width: 500px) {
+    .item-1{
+		width: 300px;
+	}
+	.produs_flex  h2 {
+		font-size: 1em;
+	}
+}

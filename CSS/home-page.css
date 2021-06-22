@@ -1,0 +1,328 @@
+*{
+    text-decoration: none;
+}
+.background-img {
+    display: block;
+    background-image: url("/images/best_iThink.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+    width: 100vw;
+    height: 800px;
+}
+h1, h2 ,p {
+    font-family: 'Open Sans', sans-serif;
+}
+.minititlu {
+    margin-left: 5%;
+    font-weight: 200;
+    margin-bottom: 8vh;
+    font-size: 1.8em;
+}
+.bold {
+	font-family: 'Roboto', sans-serif;
+}
+.block-text1 {
+    display: block;
+    text-align: center;
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    
+}
+.block-text2 {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 18vh;
+    margin-bottom: 120px;
+    height: 300px;
+    
+}
+.block-text1 h3 {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 100;
+    margin-top: 50px;
+    
+}
+.block-text2 h3 {
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 100;
+    margin-top: 50px;
+    
+}
+.arrow {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    margin-left: -42px ;
+    height: auto;
+    z-index: 2;
+    animation: arrowbounce 0.7s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+@keyframes arrowbounce {
+    0%{
+        top:92%;
+    }
+    50%{
+        top:88%;
+    }
+    100%{
+        top:92%;
+    }
+}
+.animating_slide {
+    top: 36%;
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 160px;
+}
+.animating_slide .animating_box {
+    height: 160px;
+    position: absolute;
+    width: 0;
+    background-color: #1A1A1A;
+    opacity: 0.6;
+    animation: boxslide 1.2s ease-in-out;
+    animation-delay: 0.72s;
+    animation-fill-mode: forwards;
+    
+}
+.animating_slide > h1 {
+    max-height: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    transform: translateY(-100%);
+    left: 100%;
+    color: white;
+    opacity: 0.2;
+    animation: textslide 0.90s ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+@keyframes boxslide {
+    from {width: 0;}
+    to {width: 100vw;}
+
+}
+@keyframes textslide{
+    from {left: 100%;opacity: 0.2;}
+    to {left: 0;opacity:1;}
+}
+.ex_produse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.slide {
+    display: flex;
+    flex-direction: row;
+}
+.move_arrow {
+    display: inline-block;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow2{
+    transform: rotate(-180deg);
+}
+.move_arrow:hover img {
+    height: 4.5vh;
+}
+.move_arrow > img {
+    height: 4vh;
+    transform: rotate(90deg);
+}
+.shop-button {
+    display: block;
+    background-color: #1A1A1A;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 50px;
+    font-weight: 700;
+    width: 120px;
+    padding: 15px;
+    font-size: 30px;
+    transition: background-color 200ms;
+    border-radius: 3px;
+}
+.shop-button:hover {
+    background-color: rgb(49, 49, 49);
+}
+.box {
+    margin: 10%;
+    margin-bottom: 150px;
+}
+.box h2 {
+    font-size: 2em;
+}
+.ex-pareri{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pareri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pareri iframe {
+    margin-bottom: 10px;
+}
+.ex-pareri p {
+    margin: 20px;
+    margin-top: 50px;
+}
+.parere{
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+}
+/* css pt produse */
+.container{
+    text-align: center;
+    display: block;
+    min-height: 300px;
+    /*border: 1px solid gray;*/
+}
+.produs{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    /*border: 1px solid gray;*/
+    margin: 5px;
+}
+.produs h3 {
+    font-weight: 300;
+}
+.img_list{
+    position: relative;
+    object-fit: cover;
+    display: block;
+    height: 360px;
+    width: 200px;
+    max-height: 420px;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.img_p{
+    position: absolute;
+    object-fit: cover;
+    display: block;
+    height: 360px;
+    width: 200px;
+    max-height: 420px;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_list:hover .img_ontop{
+    height: 0;
+}
+@media only screen and (max-width: 700px)  {
+    .block-text1 {
+        font-size: 1em;
+    }
+    .block-text2 {
+        font-size: 1em;
+        margin-bottom: 200px;
+    }
+    .animating_slide > h1 {
+        font-size: 6.2vw;
+    }
+    .ex_produse {
+        widows: 60vw;
+    }
+    .img_p{
+        height: 200px;
+        width: 130px;
+    }
+    .img_list {
+        height: 200px;
+        width: 130px;
+    }
+    .minititlu {
+        font-size: 1.5em;
+    }
+    .box h2 {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .block-text1 {
+        font-size: 0.8em;
+    }
+    .block-text2 {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-height: 450px)
+{
+    .arrow {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        margin-left: -42px ;
+        height: auto;
+        z-index: 2;
+        animation: arrowbounce 0.7s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+    }
+    @keyframes arrowbounce {
+        0%{
+            top:120%;
+        }
+        50%{
+            top:116%;
+        }
+        100%{
+            top:120%;
+        }
+    }
+}
+@media only screen and (min-height: 1000px){
+    .arrow {
+        position: absolute;
+        top: 54%;
+    }
+    @keyframes arrowbounce {
+        0%{
+            top:54%;
+        }
+        50%{
+            top:58%;
+        }
+        100%{
+            top:54%;
+        }
+    }
+}
+

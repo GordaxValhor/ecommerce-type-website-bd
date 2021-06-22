@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+}
+.info-contact{
+    margin-top: 180px;
+    margin-left: 10%;
+    font-size: 30px;
+}
+.info-contact h3{
+    font-size: 15px;
+    margin-left: 5%;
+}
+.info-contact a {
+    margin-left: 5%;
+}
+.links {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 80px;
+}
+.links h3{
+    font-size: 15px;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 1125px) {
+    .info-contact {
+        font-size: 18px;
+    }
+    .links {
+        font-size: 18px;
+        margin-bottom: 150px;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .info-contact {
+        font-size: 14px;
+    }
+    .info-contact h3{
+        font-size: 12px;
+    }
+    .links {
+        font-size: 14px;
+        margin-bottom: 150px;
+    }
+}
+/* hidden buton */
+.butonel {
+    position: absolute;
+    bottom: -100px;
+    left:2px;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.butonel:hover {
+    background-color: white;
+}

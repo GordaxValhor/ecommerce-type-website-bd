@@ -1,0 +1,100 @@
+
+h1 {
+    text-align: center;
+}
+.log{
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.open_tabele {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.open_tabele p{
+    margin:5px;
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 50px;
+}
+.tabel {
+    overflow:auto;
+    overflow-x: scroll;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+}
+.tabel table {
+    
+    border-collapse: collapse;
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+	color: rgb(56, 56, 56);
+}
+.tabel table tr th {
+    border: 2px solid rgb(56, 56, 56);
+}
+.tabel table tr td {
+    border: 1.5px solid rgb(192, 192, 192);
+    padding: 5px;
+}
+.adaugare_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.adaugare_p form {
+    padding: 5px;
+    border: 1px solid rgb(192, 192, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+}
+.adaugare_p form input {
+    margin: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+}
+.adaugare_p form .row .column .row{
+    align-items: center;
+}
+input[type=checkbox] {
+    padding: 0;
+    border: 0;
+    height: 15px;
+    width: 15px;
+}
+@media only screen and (max-width: 400px) {
+    
+    .adaugare_p form input {
+        width: 100px;
+    }
+    .adaugare_p input[type=checkbox] {
+        height: 15px;
+        width: 15px;
+    }
+    
+}
