@@ -12,7 +12,7 @@
                 $sql = "SELECT * FROM produse limit ".$start.",3;" ;
                 $results =  mysqli_query($conn,$sql);  
                 $numResults = mysqli_num_rows($results);
-                ?>
+                ? >
                 <div class="container">
                     <?php
                         if ($numResults > 0) 
