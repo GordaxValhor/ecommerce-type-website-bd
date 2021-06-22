@@ -1,7 +1,7 @@
 <?php
     include 'db_connect.php';
     session_start();
-?>
+? >
 <html>
     <head>
         <title>Belissima Design</title>
